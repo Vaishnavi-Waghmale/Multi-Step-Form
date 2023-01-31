@@ -42,6 +42,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ---
 #Overview
 
-<img src= "./1(2).png" alt="First page" />
+<img src= "./1 (2).png" alt="First page" />
 --
 <img src= "./2.png" alt="First page" />
