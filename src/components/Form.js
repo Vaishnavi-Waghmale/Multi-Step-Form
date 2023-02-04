@@ -21,7 +21,7 @@ function Form() {
             return <Email formData={formData} setFormData={setFormData} />;
         } else if (page === 1) {
             return <ExtraActivity formData={formData} setFormData={setFormData} />;
-        } else if (page == 2) {
+        } else if (page === 2) {
             return <Age formData={formData} setFormData={setFormData} />;
         }
         else {
@@ -33,7 +33,7 @@ function Form() {
         <div className="form">
             <div className="progressbar">
                 <div
-                    style={{ width: page === 0 ? "25%" : page == 1 ? "50%" : page == 2 ? "75%" : "100%" }}
+                    style={{ width: page === 0 ? "25%" : page === 1 ? "50%" : page === 2 ? "75%" : "100%" }}
                 ></div>
             </div>
             <div className="form-container">
@@ -43,7 +43,7 @@ function Form() {
                 <div className="body">{PageDisplay()}</div>
                 <div className="footer">
                     <button
-                        disabled={page == 0}
+                        disabled={page === 0}
                         onClick={() => {
                             setPage((currPage) => currPage - 1);
                         }}
